@@ -11,6 +11,7 @@
             http://www.springframework.org/schema/aop  
       http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">  
   <context:annotation-config />  
+  
   <bean class="org.springframework.web.portlet.mvc.annotation.DefaultAnnotationHandlerMapping" /> 
    
   <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">  
