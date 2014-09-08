@@ -1,0 +1,1 @@
+create index IX_A6E76280 on emp_Employee (firstName);

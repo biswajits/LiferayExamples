@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.1.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_1_0.dtd">
+<service-builder package-path="com.navin.example.liferay">
+	<author>biswajits</author>
+	<namespace>emp</namespace>
+    <entity name="Employee" local-service="true" remote-service="false">
+        <column name="employeeId" type="long" primary="true" id-type="identity"></column>
+        <column name="companyId" type="long"></column>
+        <column name="userId" type="long" ></column>
+        <column name="firstName" type="String"></column>
+        <column name="lastName" type="String"></column>
+        <column name="eMail" type="String"></column>
+        <column name="phoneNo" type="String"></column>
+        <order by="asc">
+            <order-column name="firstName"></order-column>
+        </order>
+        <finder name="firstNameCollection" return-type="Collection" unique="false">
+            <finder-column name="firstName"></finder-column>
+        </finder>
+    </entity>
+
+</service-builder>

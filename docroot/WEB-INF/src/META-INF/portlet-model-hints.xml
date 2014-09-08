@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.navin.example.liferay.model.Employee">
+		<field name="employeeId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="firstName" type="String" />
+		<field name="lastName" type="String" />
+		<field name="eMail" type="String" />
+		<field name="phoneNo" type="String" />
+	</model>
+</model-hints>
