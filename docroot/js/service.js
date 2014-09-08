@@ -1,0 +1,1 @@
+Liferay.Service.register("Liferay.Service.Student", "net.service.builder.service", "ServiceBuilderExample-portlet");
